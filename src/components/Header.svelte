@@ -7,6 +7,10 @@
 		{ name: "Blog", link: "https://www.youtube.com/watch?v=-2UjwQzxvBQ" },
 		{ name: "Contact", link: "" },
 	];
+
+	function openLink(_event) {
+		window.open("https://www.linkedin.com/in/danielimmanj", "_blank");
+	}
 </script>
 
 <header
@@ -36,7 +40,7 @@
 			/>
 			<h4 class="relative z-9">Login</h4>
 		</button>
-		<button
+		<button on:click|preventDefault={openLink}
 			class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
 		>
 			<div
