@@ -24,17 +24,19 @@
 
     let benefits = [
         {
-            metric: "10x",
+            metric: "30x",
             name: "a self taught developer",
             description:
                 "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
         {
+            metric: "10x",
             name: "a product design & UX finatic",
             description:
                 "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
         },
         {
+            metric: "20x",
             name: "an excellent communicator",
             description:
                 "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
@@ -156,7 +158,7 @@
         </p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
-                <!-- <div class="flex flex-col gap-2 mx-auto">
+                <div class="flex flex-col gap-2 mx-auto">
                     <div class="flex items-end gap-4">
                         <p
                             class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
@@ -170,7 +172,7 @@
                         </p>
                     </div>
                     <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
+                </div>
                 <div class="flex gap-6 sm:gap-8">
                     <p
                         class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
