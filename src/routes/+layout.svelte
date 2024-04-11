@@ -2,6 +2,7 @@
   import "../app.css";
   import Footer from "../components/Footer.svelte";
   import Header from "../components/Header.svelte";
+  import { onMount } from "svelte";
 
   let y,
     innerHeight = 0,
@@ -10,6 +11,10 @@
   function goTop() {
     document.body.scrollIntoView();
   }
+
+  onMount(() => {
+    document.title = "Daniel J";
+  });
 </script>
 
 <div
